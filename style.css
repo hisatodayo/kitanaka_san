@@ -1,0 +1,29 @@
+.thumbnail img {
+  display: block;
+  width: 100%;
+}
+.markerY {
+  background: #f7f3ab;
+  font-weight: 700;
+  padding: 2px 4px 2px 4px;
+}
+.orderList {
+  display: inline-block;
+  padding: 25px 50px;
+  border-radius: 50px;
+  background-color: aquamarine;
+  margin-top: 10px;
+}
+.orderList_item + .orderList_item {
+  margin-top: 10px;
+}
+
+@media screen and (max-device-width: 767px) {
+  .orderList {
+    padding: 10vw 13vw;
+    margin-top: 5vw;
+  }
+  .orderList_item + .orderList_item {
+    margin-top: 5vw;
+  }
+}
